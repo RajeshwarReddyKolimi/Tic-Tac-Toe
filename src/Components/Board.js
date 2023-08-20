@@ -115,10 +115,12 @@ export default function Board() {
                                 <td
                                     key={y}
                                     className={`board-cell ${
-                                        (values[x][y] !== "" &&
-                                            "cell-filled") ||
-                                        (winner !== "" && "cell-left")
-                                    } ${winValues[x][y] && "cell-won"}`}
+                                        values[x][y] !== "" && "cell-filled"
+                                    } ${
+                                        winner !== "" &&
+                                        !winValues[x][y] &&
+                                        "cell-lost"
+                                    }`}
                                     onClick={() => handleClick(x, y)}
                                 >
                                     {values[x][y] === "X" && (
