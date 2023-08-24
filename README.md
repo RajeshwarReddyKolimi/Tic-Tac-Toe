@@ -2,6 +2,8 @@
 
 This project is a simple implementation of the classic game Tic Tac Toe using React. The game allows two players to take turns marking spaces on a 3x3 grid to try and achieve a winning combination. The project is styled using CSS and includes features such as resetting the game, undoing moves, and displaying the winner or a draw.
 
+## [Live Demo](https://tic-tac-toe-by-rajeshwar.netlify.app/)
+
 ## Features
 - Play the classic game of Tic Tac Toe with a friend.
 - Visual indicators for filled cells and the winning combination.
@@ -11,7 +13,7 @@ This project is a simple implementation of the classic game Tic Tac Toe using Re
 
 ## Installation
 - Clone the repository using the following command:
-`git clone https://github.com/your-username/tic-tac-toe-react.git`
+`git clone https://github.com/RajeshwarReddyKolimi/Tic-Tac-Toe.git`
 - Navigate to the project directory:
 `cd tic-tac-toe-react`
 - Install the required dependencies using npm or yarn:
