@@ -8,7 +8,8 @@ This project is a simple implementation of the classic game Tic Tac Toe using Re
 - Reset the game to its initial state.
   Undo moves and go back to the previous state.
 - Informative messages indicating the current player's turn, winner, or a draw.
-- Installation
+
+## Installation
 - Clone the repository using the following command:
 `git clone https://github.com/your-username/tic-tac-toe-react.git`
 - Navigate to the project directory:
